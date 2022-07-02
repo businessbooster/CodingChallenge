@@ -1,0 +1,95 @@
+
+* {
+  font-family: sans-serif;
+  box-sizing: border-box;
+  margin: 0px;
+}
+
+body {
+  background-image: url("background.jpg");
+  background-size: cover;
+}
+
+h2 {
+  color: #03dd03;
+  text-align: center;
+}
+
+h3 {
+  color: white;
+  display: inline-block;
+  margin-left: 5px;
+  margin-bottom: 5px;
+}
+
+p {
+  color:white;
+  font-size: 0.7em;
+  font-weight: 300;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.65);
+  margin: 5% 15%;
+  border-radius: 20px;
+  padding: 80px;
+}
+
+.logo-contenitore {
+  margin-bottom: 15px;
+  text-align: center;
+  display: block;
+}
+
+.logo {
+  height: 100px;
+}
+
+.contenitore-pulsanti {
+  background-color: #03dd03;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.gruppo {
+  margin-bottom: 15px;
+  margin-bottom: 30px;
+}
+
+.indirizzo {
+  margin-bottom: 5px;
+}
+
+.indirizzo:before {
+  color: white;
+  margin-right: 5px;
+  content: "\21A6";
+}
+
+.carica-uno {
+  margin-top: 10px;
+  border-radius: 6px;
+  background-color: #f5b453;
+  width: 30%;
+  height: 25px;
+}
+
+.carica-due {
+  margin-top: 10px;
+  border-radius: 6px;
+  background-color: #1fc31d;
+  width: 50%;
+  height: 25px;
+  display: inline-block;
+}
+
+.carica-tre {
+  margin-top: 10px;
+  border-radius: 6px;
+  background-color: #be4140;
+  width: 15%;
+  height: 25px;
+}
